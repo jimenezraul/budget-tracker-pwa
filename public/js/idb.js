@@ -32,9 +32,9 @@ function saveRecord(record) {
   budgetObjectStore.add(record);
 
   if (isDeposit) {
-    alert("Deposit saved!");
+    alert("Your Deposit has been saved locally, it will be submitted automatically when you have an internet connection.");
   } else {
-    alert("Expense saved!");
+    alert("Your Expense has been saved locally, it will be submitted automatically when you have an internet connection.");
   }
 }
 
